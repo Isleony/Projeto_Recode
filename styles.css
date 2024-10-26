@@ -3,6 +3,37 @@
     margin: 0;
 }
 
+.main-button, .button {
+    background-color: #6A1B9A;
+    color: rgb(46, 78, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.main-button:hover, .button:hover {
+    background-color: #5A189A; 
+    transform: scale(1.05); 
+}
+
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.menu-list a:hover {
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700; 
+}
+
 body {
     display: flex;
     flex-direction: column;
