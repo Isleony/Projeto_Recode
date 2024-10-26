@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.menu-list {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 5em; 
+}
+
+.menu-list li { 
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    padding: 1.5em; 
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.imagem-container {
+    position: relative;
+}
+
+.button-container{
+    display: flex;
+    margin-top: -45%;
+    align-items:center;
+    justify-content: center;
+}
+
+.button {
+    font-size: 16px;
+    width: 20%;
+    margin: 1em;
+    padding: 3em;
+    border: none;
+    border-radius: 12px;
+    background-color: blueviolet;
+}
+
+.button a {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 5%;
+    border: solid black 1px;
+    border-radius: 12px;
+    
+}
+
+.form-box {
+    margin-bottom: 2em;
+}
+
+.form-box, input {
+    width: 100%;
+    padding: 2%;
+}
+
+.form-button {
+    width: 100%;
+    text-align: center;
+}
+
+.submit {
+    width: 100%;
+    padding: 1.5em;
+    font-size: 16px;
+    border: solid 1px black;
+    border-radius: 16px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
