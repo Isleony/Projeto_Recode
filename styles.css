@@ -187,18 +187,34 @@ body {
     color: black;
 }
 
-.footer-list {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    padding: 5%;
-}
+.footer {
+    width: 100%;
+    background-color: #7186f3;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .footer p:last-child {
+    font-size: 0.9rem;
+  }
+  
 
 .footer-list a { 
     font-size: 14px;
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     
 }
 
